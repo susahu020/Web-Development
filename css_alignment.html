@@ -1,25 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Alignment</title>
-</head>
-<body>
+    <link
+      href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Ubuntu", sans-serif;
+      }
+      .container {
+        width: 900px;
+        border: 2px solid purple;
+        margin: auto;
+        background-color: darkorchid;
+      }
+      .item {
+        border: 2px solid gray;
+        margin: 12px 3px;
+        padding: 12px 3px;
+        background-color: aliceblue;
+      }
+      #fruit {
+        float: left;
+        width: 48%;
+      }
+      #computer {
+        float: right;
+        width: 48%;
+      }
+      #stationary {
+        /* float: left; */
+        width: 100%;
+        clear: both;
+      }
+      p,h3 {
+        text-align: left;
+        text-align: right;
+        text-align: center;
+        text-align: justify;
+      }
+      h1 {
+        margin: auto;
+        width: 455px;
+        color: aliceblue;
+      }
+    </style>
+  </head>
+  <body>
     <div class="container">
-        <div id="fruit" class="item">
-            <h3>Fruits</h3>
-            <p id="fruitpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis explicabo reiciendis in, nobis ullam impedit! Aliquam consectetur itaque quia voluptatibus delectus debitis ad excepturi commodi nobis sapiente, dignissimos deserunt magnam?</p>
-        </div>
-        <div id="computer" class="item">
-            <h3>Computer</h3>
-            <p id="computerpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis explicabo reiciendis in, nobis ullam impedit! Aliquam consectetur itaque quia voluptatibus delectus debitis ad excepturi commodi nobis sapiente, dignissimos deserunt magnam?</p>
-        </div>
-        <div id="stationary" class="item">
-            <h3>Stationary</h3>
-            <p id="stationarypara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis explicabo reiciendis in, nobis ullam impedit! Aliquam consectetur itaque quia voluptatibus delectus debitis ad excepturi commodi nobis sapiente, dignissimos deserunt magnam?</p>
-        </div>
+      <h1>Welcome to my store</h1>
+      <div id="fruit" class="item">
+        <h3>Fruits</h3>
+        <p id="fruitpara" class="para">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+          explicabo reiciendis in, nobis ullam impedit! Aliquam consectetur
+          itaque quia voluptatibus delectus debitis ad excepturi commodi nobis
+          sapiente, dignissimos deserunt magnam? Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Repellat nobis explicabo quo
+          consequuntur vitae non doloribus sapiente. Similique et minus iste
+          nesciunt repudiandae voluptate ullam, aliquid porro, atque inventore
+          dolore animi laborum voluptatem vel.
+        </p>
+      </div>
+      <div id="computer" class="item">
+        <h3>Computer</h3>
+        <p id="computerpara" class="para">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+          explicabo reiciendis in, nobis ullam impedit! Aliquam consectetur
+          itaque quia voluptatibus delectus debitis ad excepturi commodi nobis
+          sapiente, dignissimos deserunt magnam? Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Repudiandae magni optio aut laboriosam
+          exercitationem accusamus, tempora accusantium ipsam, iusto,
+          perferendis velit harum laudantium quas ipsa voluptates animi amet!
+          Eos adipisci id officiis delectus esse!
+        </p>
+      </div>
+      <div id="stationary" class="item">
+        <h3>Stationary</h3>
+        <p id="stationarypara" class="para">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+          explicabo reiciendis in, nobis ullam impedit! Aliquam consectetur
+          itaque quia voluptatibus delectus debitis ad excepturi commodi nobis
+          sapiente, dignissimos deserunt magnam?
+        </p>
+      </div>
     </div>
-</body>
+  </body>
 </html>
