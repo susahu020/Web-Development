@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Shadow and text shadow</title>
+    <style>
+        .container{
+            display: flex;
+        }
+        .card{
+            padding: 23px 12px;
+            margin: 23px 12px;
+            /* border: 2px solid red; */
+            background-color: rgb(138, 105, 171);
+            color: white;
+
+            /* box-shadow: offset-x offset-y color  */
+            /* box-shadow: 5px 5px green; */
+            /* box-shadow: -5px -5px blue; */
+
+            /* box-shadow: offset-x offset-y blur-radius color  */
+            box-shadow: 7px 5px 7px yellow;
+            /* box-shadow: -7px -5px 7px yellowgreen; */
+
+            /* box-shadow: offset-x offset-y blur-radius spread-radiuscolor  */
+            /* box-shadow: 7px 5px 7px 7px orangered; */
+
+            /* box-shadow: inset 3px 5px blue; */
+
+            /* Multiple box-shadow  */
+            box-shadow: 3px 5px royalblue, 6px 7px yellow;
+        }
+        .card h2{
+            text-shadow: 3px 2px black;
+            text-shadow: 3px 2px 4xp black;
+            /* text-shadow: -3px -2px 4xp black; */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card" id="card-1">
+            <h2>This is HTML course</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores aperiam maxime ipsa modi id voluptas quo optio, ea recusandae temporibus voluptatem iste? Voluptatibus nobis reprehenderit aliquid necessitatibus! Labore ipsam, dolorem exercitationem sed ea ducimus!
+            </p>
+        </div>
+        <div class="card" id="card-2">
+            <h2>This is CSS course</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores aperiam maxime ipsa modi id voluptas quo optio, ea recusandae temporibus voluptatem iste? Voluptatibus nobis reprehenderit aliquid necessitatibus! Labore ipsam, dolorem exercitationem sed ea ducimus!
+            </p>
+        </div>
+        <div class="card" id="card-3">
+            <h2>This is Javascript course</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores aperiam maxime ipsa modi id voluptas quo optio, ea recusandae temporibus voluptatem iste? Voluptatibus nobis reprehenderit aliquid necessitatibus! Labore ipsam, dolorem exercitationem sed ea ducimus!
+            </p>
+        </div>
+    </div>
+</body>
+</html>
